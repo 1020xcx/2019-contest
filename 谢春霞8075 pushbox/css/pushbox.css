@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#home,#instructions{
+	width:320px;
+	height: 565px;
+	background-image: url(../img/home.png);
+	background-size: 100% 100%;
+	margin: 5px auto;
+	position: relative;
+	text-align: center;
+}
+#home img{
+	width: 120px;
+	margin-top: 180px;
+	cursor: pointer;
+}
+#home h5{
+	margin-left: 200px;
+	margin-top: 230px;
+	text-decoration: underline;
+	color: greenyellow;
+	cursor: pointer;
+}
+#home h5:hover{
+	font-size: 16px;
+}
+#home .impotant{
+	font-size: 25px;
+	margin-top: 10px;
+	color: red;
+	text-shadow:4px 4px 2px #B22222;
+	text-align: center;
+}
+#instructions p img{
+	margin-top: 200px;
+	width: 60px;
+	
+}
+#instructions .reback{
+	width: 300px;
+	margin-top: 60px;
+	cursor: pointer;
+	position: absolute;
+    left: -170px;
+    margin-top: 120px;
+}
+#instructions p{
+	color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: left;  
+    margin-left:25px;
+    
+}
+#instructions .impotant{
+	font-size: 16px;
+	color: red;
+}
+#play{
+	width:320px;
+	height: 565px;
+	background-image: url(../img/level.PNG);
+	background-size: 100% 100%;
+	margin: 5px auto;
+	text-align: center;
+	position: relative;
+}
+#play ul{
+	list-style: none;
+	width: 260px;
+	margin: 0 auto;
+	padding-top: 100px;
+	overflow: hidden;
+}
+#play ul li img{
+	width: 40px;
+	height: 40px;
+}
+#play ul li{
+	float: left;
+	width: 65px;
+	height: 65px;
+	margin-top: 10px;
+}
+#play .reback{
+	width: 300px;
+    cursor: pointer;
+    position: absolute;
+    left: -170px;
+    margin-top: 20px;
+    
+}
+canvas{
+	display: block;
+	margin: 5px auto;
+	background-image: url(../img/play.PNG);
+	background-size: 100% 100%;
+}
+.mask{
+	position: absolute;
+	width: 320px;
+	height: 565px;
+	top:5px;
+	left: 50%;
+	margin-left: -160px;
+	background-color:#000000;
+	opacity: 0.7;
+	text-align: center;
+	display: none;
+	
+}
+.mask h2{
+	color: white;
+	font-weight: 900;
+	font-size: 35px;
+	margin-top: 180px;
+	text-shadow:4px 4px 2px #B22222;
+	font-style: italic;
+	
+}
+.mask img{
+	margin-top: 20px;
+	margin-left: -10px;
+	width: 100px;
+	/*margin-left: 20px;*/
+}
+.mask .next{
+	width:120px;
+	margin-top:30px ;
+	color: #ADFF2F;
+}
+h1{
+	position: absolute;
+	width: 320px;
+	height: 200px;
+	color: white;
+	font-size: 40px;
+	text-shadow:4px 4px 2px #B22222;
+	top:20px;
+	left: 50%;
+	margin-left: -60px;
+	display: none;
+}
